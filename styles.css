@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+  
+
+
+.top-header {
+    background-color: #303D4E;
+    color: #fff;
+    padding: 0px;
+    height: 35px;
+    width: 100%;
+}
+  
+  
+.sub-tops {
+    max-width: 75%;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    padding: 9px 0;
+}
+  
+.delivery-time,
+.phone-number,
+.free-shipping,
+.return-policy { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 auto;
+    flex: auto;
+}
+.delivery-time::before {
+  content: url('images/delivery_time.png');
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.phone-number::before {
+  content: url('images/phone.png');
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.free-shipping::before {
+  content: url('images/free-shipping.png');
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.return-policy::before {
+  content: url('images/delivery_time.png');
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+  
+ 
+.bottom-header {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    height:80px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    flex: 1;
+    margin-right: 20px;
+}
+.categories {
+    flex: 1;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.category-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+    display: inline-block;
+    white-space: nowrap;
+}
+.category-container {
+    display: flex;
+    align-items: center;
+}
+  
+.search-bar {
+  flex: 3;
+  margin-right: 20px;
+  text-align: right; 
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 20px;
+
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif
+}
+
+.search-button {
+  background-color: #ffffff;
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button img {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+}
+.search-bar::after {
+  content: "";
+  position: absolute;
+  width: 320px;
+  height: 2px;
+  background-color: #000;
+  top: 107px;
+  left: 72.7%;
+  flex: auto;
+}
+.icons {
+    flex: auto;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icon {
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: none;
+} 
+.icon img {
+    width: 24px;
+    height: 24px; 
+}
+.news {
+  background-color: #ECECEC;
+  position: relative;
+  color: #000000;
+  padding: 0px;
+  height: 700px;
+  width: 100%;
+}
+.news .largelogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('images/Gruppe\ maskieren\ 139@2x.png');
+  background-size: cover;
+  background-position: center;
+}
